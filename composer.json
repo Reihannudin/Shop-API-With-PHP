@@ -1,0 +1,19 @@
+{
+    "name": "bulletproof/crud",
+    "type": "project",
+    "require": {
+        "php": ">=8",
+      "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bulletproof\\Crud\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "reihannudin",
+            "email": "reedbulls91@gmail.com"
+        }
+    ]
+}
